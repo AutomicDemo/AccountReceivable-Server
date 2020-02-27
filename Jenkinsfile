@@ -30,10 +30,10 @@ pipeline {
 					gitPrevSuccessfulCommit: "${env.GIT_PREVIOUS_SUCCESSFUL_COMMIT}",
 					overrideCDDConfig: [
 							customApiKey: '',
-						customProxyPassword: "${lvntest001841key}",
+						customProxyPassword: "${ArDemoApiKey}",
                             				customProxyUrl: '',
                            				customProxyUsername: '',
-                            				customServerName: 'lvntest002908.bpc.broadcom.net',
+                            				customServerName: '35.185.100.184',
                             				customServerPort: 8080,
                             				customTenantId: '00000000-0000-0000-0000-000000000000',
                             				customUseSSL: false
